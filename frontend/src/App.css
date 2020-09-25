@@ -1,0 +1,77 @@
+.stream-app{
+  height: 30px;
+  border-radius: 4;
+  margin: '10px';
+  /* padding: '0 20px'; */
+  box-shadow: '0px 0px 4px rgba(0,0,0,0.15)';
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'space-between';
+  flex-direction: 'row';
+  color: #FFFFFF
+}
+
+.label-font{
+  color: #FFFFFF;
+  margin: 20px
+}
+
+.app-title{
+  color:#A26472;
+  text-align: center
+}
+
+.post {
+  /* padding: 14px; */
+  /* border-bottom: 1px solid #d3d3d3; */
+  /* margin: 10px 0px 10px 0px; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hr-class{
+  width: 86%;
+  color:#4773A6;
+}
+
+.init-button{
+  margin-left: 50px;
+}
+
+  .actor-logo{
+    height: 50px;
+    width: 50px;
+    border: none;
+    float: left;
+    margin: 0px 20px 0px 0px  
+  }
+  
+  .post-content{
+    display: flex;
+    flex-direction:column;
+   }
+
+  .post-title{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 1px;
+    outline: none;
+    margin-right: 100px;
+    padding: 0px;
+    overflow: hidden;
+    unicode-bidi: isolate;
+    color: #378D85;
+    text-decoration:none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+  }
+ 
+ .post-time{
+   color: #C0C6C9
+ }
+
+ .input-style{
+   margin: 10px
+ }
